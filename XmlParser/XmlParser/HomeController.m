@@ -7,6 +7,7 @@
 //
 
 #import "HomeController.h"
+#import "NewsFeedCell.h"
 
 @interface HomeController ()
 
@@ -57,11 +58,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"NewsFeedCellid";
+    NewsFeedCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
-    
+        
     return cell;
 }
 

@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 RapidValue. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ParserAppDelegate.h"
 #import "GDataXMLNode.h"
 
-@implementation AppDelegate
+@implementation ParserAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

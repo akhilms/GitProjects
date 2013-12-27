@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		FF6EE3CD186C5CA60082191B /* NewsFeedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6EE3CC186C5CA60082191B /* NewsFeedObject.m */; };
 		FFA2E9B1186C5F42002AF278 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA2E9B0186C5F42002AF278 /* HomeController.m */; };
+		FFE68751186D500800FBDC74 /* DataCart.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE68750186D500800FBDC74 /* DataCart.m */; };
 		FFF795D1186C3E4F00FD31F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF795D0186C3E4F00FD31F3 /* Foundation.framework */; };
 		FFF795D3186C3E4F00FD31F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF795D2186C3E4F00FD31F3 /* CoreGraphics.framework */; };
 		FFF795D5186C3E4F00FD31F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF795D4186C3E4F00FD31F3 /* UIKit.framework */; };
 		FFF795DB186C3E4F00FD31F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFF795D9186C3E4F00FD31F3 /* InfoPlist.strings */; };
 		FFF795DD186C3E4F00FD31F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF795DC186C3E4F00FD31F3 /* main.m */; };
-		FFF795E1186C3E4F00FD31F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF795E0186C3E4F00FD31F3 /* AppDelegate.m */; };
+		FFF795E1186C3E4F00FD31F3 /* ParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF795E0186C3E4F00FD31F3 /* ParserAppDelegate.m */; };
 		FFF795E4186C3E4F00FD31F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF795E2186C3E4F00FD31F3 /* Main.storyboard */; };
 		FFF795E9186C3E4F00FD31F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF795E8186C3E4F00FD31F3 /* Images.xcassets */; };
 		FFF795F0186C3E4F00FD31F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF795EF186C3E4F00FD31F3 /* XCTest.framework */; };
@@ -41,6 +42,8 @@
 		FF6EE3CC186C5CA60082191B /* NewsFeedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedObject.m; sourceTree = "<group>"; };
 		FFA2E9AF186C5F42002AF278 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		FFA2E9B0186C5F42002AF278 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		FFE6874F186D500800FBDC74 /* DataCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCart.h; sourceTree = "<group>"; };
+		FFE68750186D500800FBDC74 /* DataCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCart.m; sourceTree = "<group>"; };
 		FFF795CD186C3E4F00FD31F3 /* XmlParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XmlParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF795D0186C3E4F00FD31F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFF795D2186C3E4F00FD31F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +52,8 @@
 		FFF795DA186C3E4F00FD31F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFF795DC186C3E4F00FD31F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFF795DE186C3E4F00FD31F3 /* XmlParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XmlParser-Prefix.pch"; sourceTree = "<group>"; };
-		FFF795DF186C3E4F00FD31F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FFF795E0186C3E4F00FD31F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFF795DF186C3E4F00FD31F3 /* ParserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParserAppDelegate.h; sourceTree = "<group>"; };
+		FFF795E0186C3E4F00FD31F3 /* ParserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParserAppDelegate.m; sourceTree = "<group>"; };
 		FFF795E3186C3E4F00FD31F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFF795E8186C3E4F00FD31F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFF795EE186C3E4F00FD31F3 /* XmlParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmlParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,8 +124,8 @@
 		FFF795D6186C3E4F00FD31F3 /* XmlParser */ = {
 			isa = PBXGroup;
 			children = (
-				FFF795DF186C3E4F00FD31F3 /* AppDelegate.h */,
-				FFF795E0186C3E4F00FD31F3 /* AppDelegate.m */,
+				FFF795DF186C3E4F00FD31F3 /* ParserAppDelegate.h */,
+				FFF795E0186C3E4F00FD31F3 /* ParserAppDelegate.m */,
 				FFF795E2186C3E4F00FD31F3 /* Main.storyboard */,
 				FFF795E8186C3E4F00FD31F3 /* Images.xcassets */,
 				FFF795D7186C3E4F00FD31F3 /* Supporting Files */,
@@ -145,6 +148,8 @@
 				FF6EE3CC186C5CA60082191B /* NewsFeedObject.m */,
 				FFA2E9AF186C5F42002AF278 /* HomeController.h */,
 				FFA2E9B0186C5F42002AF278 /* HomeController.m */,
+				FFE6874F186D500800FBDC74 /* DataCart.h */,
+				FFE68750186D500800FBDC74 /* DataCart.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -265,9 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFF79607186C3F0C00FD31F3 /* GDataXMLNode.m in Sources */,
-				FFF795E1186C3E4F00FD31F3 /* AppDelegate.m in Sources */,
+				FFF795E1186C3E4F00FD31F3 /* ParserAppDelegate.m in Sources */,
 				FFF7960A186C573D00FD31F3 /* NewsFeedCell.m in Sources */,
 				FFF795DD186C3E4F00FD31F3 /* main.m in Sources */,
+				FFE68751186D500800FBDC74 /* DataCart.m in Sources */,
 				FFA2E9B1186C5F42002AF278 /* HomeController.m in Sources */,
 				FF6EE3CD186C5CA60082191B /* NewsFeedObject.m in Sources */,
 			);
