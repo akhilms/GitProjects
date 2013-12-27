@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NewsFeedObject.h"
 
 @interface DataCart : NSObject
 
+@property (nonatomic, strong) NSMutableArray * newsFeeds;
+
++(id) cart;
+
+-(NewsFeedObject * )getNewsFeedAtIndex :(int)index;
+
 @end
+
